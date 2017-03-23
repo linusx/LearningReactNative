@@ -6,7 +6,7 @@ import { Actions } from 'react-native-router-flux';
 
 import Config from '../Config';
 
-class BusinessSearch extends Component {
+class Index extends Component {
 	watchID = (null: ?number);
 
 	styles = StyleSheet.create({
@@ -168,4 +168,4 @@ class BusinessSearch extends Component {
 
 }
 
-module.exports = BusinessSearch;
+module.exports = Index;

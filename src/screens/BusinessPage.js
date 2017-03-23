@@ -22,7 +22,7 @@ export default class BusinessPage extends Component {
 
 				<Footer>
 					<FooterTab>
-						<Button title="Cancel"  style={{alignSelf: 'flex-end'}} onPress={Actions.businessSearch} >
+						<Button title="Cancel"  style={{alignSelf: 'flex-end'}} onPress={Actions.pop} >
 							<Text>Cancel</Text>
 						</Button>
 					</FooterTab>
