@@ -16,7 +16,7 @@ export default class App extends Component {
 			<Router>
 				<Scene key="root">
 					<Scene key="businessSearch" hideNavBar="true" component={BusinessSearch} title="Business Search" initial={true} />
-					<Scene key="businessPage" hideNavBar="true" component={BusinessPage} title="Business Page" />
+					<Scene key="businessPage" hideNavBar="true" component={BusinessPage} title="Business Page" direction="vertical" />
 				</Scene>
 			</Router>
 		)

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { WebView, Content, Alert } from 'react-native';
+import Config from '../Config';
 
 export default class BusinessForm extends Component {
 	state = {
@@ -26,7 +27,7 @@ export default class BusinessForm extends Component {
 				style={{height: this.state.Height}}
 				scrollEnabled={false}
 				automaticallyAdjustContentInsets={false}
-				source={{uri: 'http://talktotheownerapp.com/business-form/' + this.props.placeId}}
+				source={{uri: Config.api_url + '/business-form/' + this.props.placeId}}
 				javaScriptEnabled={true}
 				domStorageEnabled={true}
 				startInLoadingState={true}
